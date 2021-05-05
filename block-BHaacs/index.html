@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Selectors</title>
+    <script src="https://kit.fontawesome.com/474e96f807.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="header container flex jcb aic">
+        <h1 class="logo">TrackL</h1>
+        <label class="bars" for="toggle"><i class="fas fa-bars"></i></label>
+        <input type = "checkbox" id = "toggle" name="toggle">
+        <nav class="navbar">
+            <ul class="main-menu flex">
+                <li class="sub-menu"><a href="#">Features</a></li>
+                <li class="sub-menu"><a href="#">Pricing</a></li>
+                <li class="sub-menu"><a href="#">About</a></li>
+                <li class="sub-menu"><a href="#">Help</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2 class="capitalize heading">Track the learning <br> process schedule</h2>
+            <a href="#" class="capitalize btn btn-primary">Get 30 days trial</a>
+            <div class="img-container">
+                <img src="assets/hero.png" alt="">
+            </div>
+        </section>
+
+        <div class="file-format container flex jcb sm-wrap">
+            <div class="format flex aic flex-25 sm-100">
+                <a href="#.pdf"></a>
+                <h3 class="upper">Pdf file</h3>
+            </div>
+            <div class="format flex aic flex-25 sm-100">
+                <a href="#.doc"></a>
+                <h3 class="upper">Word file</h3>
+            </div>
+            <div class="format flex aic flex-25 sm-100">
+                <a href="#.png"></a>
+                <h3 class="upper">Image file</h3>
+            </div>
+            <div class="format flex aic flex-25 sm-100">
+                <a href="#.mp4"></a>
+                <h3 class="upper">Video file</h3>
+            </div>
+            
+        </div>
+
+        <!-- Statistics -->
+
+        <section class="container">
+            <hr>
+            <article class="monitor flex jcb addPadding statistics sm-wrap">
+                <div class="col col1 flex-45 sm-100">
+                    <h3 class="capitalize">Monitor your learning <br> and improve it</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quibusdam quidem non recusandae nihil natus quisquam porro, veritatis excepturi velit?</p>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="col col2 flex-50 sm-100">
+                    <img src="assets/learning-graph.png" alt="learning-graph">
+                </div>
+            </article>
+        </section>
+        <section class="score container addPadding ">
+            <h2 class="upper text-center">Weekly Score</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Days</th>
+                        <th>Course</th>
+                        <th>Score (0-100)</th>
+                        <th>Hour Spent</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Product Design</td>
+                        <td>40</td>
+                        <td>2 Hour 30 Min</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Product Design</td>
+                        <td>60</td>
+                        <td>3 Hour 20 Min</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Data Science</td>
+                        <td>20</td>
+                        <td>1 Hour 30 Min</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>UI Design</td>
+                        <td>60</td>
+                        <td>2 Hour 20 Min</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>UX Design</td>
+                        <td>60</td>
+                        <td>2 Hour 20 Min</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Data Science</td>
+                        <td>50</td>
+                        <td>2 Hour 40 Min</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>HTML & CSS</td>
+                        <td>70</td>
+                        <td>3 Hour 3    0 Min</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="plans addPadding container">
+            <h3 class="text-center capitalize">Join us and let's study <br> with your friends</h3>
+            <div class="btn-container flex jcc aic">
+                <h4>Monthly</h4>
+                <div class="flex toggle-btn jce aic"><span class="circle flex jcc aic">|</span></div>
+                <h4>Yearly</h4>
+            </div>
+
+            <article class="pricing flex jca sm-wrap">
+
+                <div class="box box1 flex column flex-35 sm-100">
+                    <h4 class="text-center">Basic</h4>
+                    <p class="text-center">It is a long established fact that a reader <br> will be distracted by a readable</p>
+                    <h3 class="price text-center">48</h3>
+                    <div class="line"></div>
+                    <ul class="price-menu">
+                        <li class="price-sub-menu"><img src="assets/tick.png" alt="tick">50 courses a day</li>
+                        <li class="price-sub-menu"><img src="assets/tick.png" alt="tick">4 forums a month</li>
+                        <li class="price-sub-menu"><img src="assets/tick.png" alt="tick">16 chapters a day</li>
+                        <li class="price-sub-menu"><img src="assets/cross.png" alt="tick">Private lessons once a week</li>
+                        <li class="price-sub-menu"><img src="assets/cross.png" alt="tick">Get weekly reward</li>
+                        <a href="#" class = "btn btn-tertiary">Get Started</a>
+                    </ul>
+                </div>
+
+                <div class="box box1 flex column flex-35 sm-100">
+                    <h4 class="text-center">Most Popular</h4>
+                    <p class="text-center">It is a long established fact that a reader <br> will be distracted by a readable</p>
+                    <h3 class="price text-center">58</h3>
+                    <div class="line"></div>
+                    <ul class="price-menu">
+                        <li class="price-sub-menu"><img src="assets/tick.png" alt="tick">50 courses a day</li>
+                        <li class="price-sub-menu"><img src="assets/tick.png" alt="tick">4 forums a month</li>
+                        <li class="price-sub-menu"><img src="assets/tick.png" alt="tick">16 chapters a day</li>
+                        <li class="price-sub-menu"><img src="assets/cross.png" alt="tick">Private lessons once a week</li>
+                        <li class="price-sub-menu"><img src="assets/cross.png" alt="tick">Get weekly reward</li>
+                        <a href="#" class = "btn btn-tertiary active">Get Started</a>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <section class="trial container flex column aic jcc addPadding sm-100">
+            <h2 class = "capitalize">Start your 30 days trial now!</h2>
+            <a href="#" class="btn btn-primary">Get Started</a>
+        </section>
+
+    </main>
+
+    <footer class="container addPadding flex jcb sm-wrap">
+        <div class="sec sec1 flex-30 sm-100">
+            <h2>Trackl</h2>
+            <p>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.</p>
+            <ul class="flex social">
+                <li class = "flex jcc aic"><i class="fab fa-facebook-f"></i></li>
+                <li class = "flex jcc aic"><i class="fab fa-twitter"></i></li>
+                <li class = "flex jcc aic"><i class="fab fa-instagram"></i></li>
+            </ul>
+        </div>
+        <div class="sec sec2 flex-20 sm-100">
+            <h3>Features</h3>
+            <ul>
+                <li><a href="#">Calender</a></li>
+                <li><a href="#">Forum</a></li>
+                <li><a href="#">Messanger</a></li>
+                <li><a href="#">Schedule</a></li>
+            </ul>
+        </div>
+        <div class="sec sec3 flex-20 sm-100">
+            <h3>Support</h3>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Career</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </div>
+        <div class="sec sec4 flex-20 sm-100">
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="#">hello@trackl.io</a></li>
+                <li><a href="#">(+00) 0000 000 000</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
